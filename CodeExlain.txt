@@ -1,0 +1,27 @@
+to handke a form 
+   1] initialize the form data
+    const [formData, setFormData] = useState({
+        name: '',
+        number: '',
+        email: '',
+    })
+
+   2] // handle for input changes
+    const handleInputChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    }
+
+    3]// handle submit
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        try {
+            const response = await axios.post('/api/users/store', formData);
+            // console.log('Response:', response.data);
+
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
+    ====after user input name="name" value is replace by value={formData.name} like 
+              e.target.name : e.target.value

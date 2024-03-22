@@ -1,0 +1,118 @@
+Sign up / Login page is not created
+#side bar is added in layout.tsx to display a side bar in all pages
+
+Floder structure
+   1]admin folder that contain display page after sign up or log in
+   2]CardPages these folder contain only card pages . And pages related to 
+      card accordients button like Add Products button
+
+
+
+
+
+
+
+admin page is completed
+
+Completed price calculatore price with PriceCalculator folder 
+And link price calculatore from AddProducts to PriceCalculator
+Folder Admin =>First accordients => Add Products button Click =>Add Products page => Price calculatore button Click => Price Calculatore page completed
+    
+
+*only working of accordients button and after that 
+Clicking in button respective page only display
+
+#next codding task 
+     api/users folder is created in that get and post post is defined
+
+    i use taiwind css sign up ui
+          For that i include plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+
+    Now I am working with sidebar 
+    All component of sidebar is stored into the [component/ui] folder like 
+    Customer component Store into component/ui/SidearElement/Customer
+
+    
+       costomer is done but icon is not added
+
+       next codding task [analytics]  
+
+
+      
+   
+
+
+      
+      
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+#npm install draft-js react-draft-wysiwyg 
+  not neccary
+   
+#npm install @tiptap/react @tiptap/pm @tiptap/starter-kit
+   these is also a edditor
+
+#npm install reactjs-popup --save
+  not neccary
+
+# npm install --save react-toastify 
+   used for messaging purpose / not used
+
+#npm react-hot-toast
+  used for messaging purpose
+
+#npm install axios
+    is used for routes 
+     or POST ,GET and other method
+   
+
+
+
+#components
+Add button in custoize theme in accordients 2 [add] is button is a component is used
+
+
+
+
+####################################Remaining################################
+
+analytics
+marketing
+discount 
+
+
+################################done################################
+home
+order products pages is done
+
+#############################what im doing################################
+   accordien 3 =>name store =>Edit profile form  [$] sign for work done 
+ $ After clicking the button in   submit button[form ] one function is declare called 
+ $ [SubmitHandler] it post the data on api / url for handling the post method 
+ $ route file is created called api/users/nameStore/route.ts 
+ $ I am working on it
+ $ Form data is save into database and these file [accordien_three_db] folder contains schema and connect file
+
+
+
+
+
+
+
