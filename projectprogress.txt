@@ -81,6 +81,10 @@ Clicking in button respective page only display
 #npm install axios
     is used for routes 
      or POST ,GET and other method
+
+#npm install chart.js 
+   these is used to display a graph 
+
    
 
 
@@ -109,6 +113,9 @@ order products pages is done
  $ route file is created called api/users/nameStore/route.ts 
  $ I am working on it
  $ Form data is save into database and these file [accordien_three_db] folder contains schema and connect file
+
+   Sidebar [analytics] 
+      [component] folder contain GraphComponent
 
 
 

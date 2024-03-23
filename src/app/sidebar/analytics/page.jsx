@@ -1,12 +1,16 @@
-import React from 'react'
-import Side from '@/components/ui/Side'
+'use client'
+import React from 'react';
+import GraphComponent from '../../../components/ui/SideBarElement/Analytics/GraphComponent'
+import Side from '@/components/ui/Side';
 
-function page() {
+const Home = () => {
     return (
-        <>
+        <div>
             <Side />
-        </>
-    )
-}
+            <GraphComponent />
 
-export default page
+        </div>
+    );
+};
+
+export default Home;
