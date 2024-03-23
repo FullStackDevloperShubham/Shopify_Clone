@@ -114,8 +114,12 @@ order products pages is done
  $ I am working on it
  $ Form data is save into database and these file [accordien_three_db] folder contains schema and connect file
 
-   Sidebar [analytics] 
-      [component] folder contain GraphComponent
+   $Sidebar [analytics] 
+    $  [component] folder contain GraphComponent 
+         IMP all used card in analytics page they are placed in Analytics folder withi component / ui
+
+
+ $sidebar [marketing] now i am working on it
 
 
 
